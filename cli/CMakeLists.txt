@@ -1,0 +1,2 @@
+add_executable(cavefish_cli main.cpp)
+target_link_libraries(cavefish_cli PRIVATE cavefish_core)

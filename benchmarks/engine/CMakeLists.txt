@@ -1,0 +1,1 @@
+add_executable(cavefish_engine_benchmark main.cpp)

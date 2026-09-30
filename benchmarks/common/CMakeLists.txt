@@ -1,0 +1,3 @@
+add_library(benchmark_common INTERFACE benchmark.hpp)
+target_include_directories(benchmark_common INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(benchmark_common INTERFACE common)
