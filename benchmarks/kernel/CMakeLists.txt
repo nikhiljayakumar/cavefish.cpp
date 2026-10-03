@@ -5,3 +5,6 @@ endfunction()
 
 add_cavefish_kernel_benchmark(gemv)
 add_cavefish_kernel_benchmark(gemv_q8_0)
+add_cavefish_kernel_benchmark(rms_norm)
+add_cavefish_kernel_benchmark(residual_add)
+add_cavefish_kernel_benchmark(silu_mul)

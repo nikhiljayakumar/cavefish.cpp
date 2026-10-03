@@ -11,6 +11,6 @@
     } while (0)
 
 
-inline constexpr int WarpSize = 32; // RDNA2 Wave32
+inline constexpr int kWarpSize = 32; // RDNA2 Wave32
 inline constexpr int kQuantBlockSize = 32;
 #endif // COMMON_HPP
